@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import Webcam from 'react-webcam'
 import jsQR from 'jsqr'
+import Layout from './layout'
 
 const Home = () => {
   const [results, updateResults] = useState<String[]>([])
@@ -36,7 +37,7 @@ const Home = () => {
   }, [results])
 
   return (
-    <div>
+    <Layout>
       <div>
         <button onClick={() => updateCamera(!enableCamera)}>toggleCamera</button>
       </div>
@@ -45,7 +46,7 @@ const Home = () => {
       {results.map(result => {
         return <p>{result}</p>
       })}
-    </div>
+    </Layout>
   )
 }
 
