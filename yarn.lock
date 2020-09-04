@@ -902,9 +902,10 @@
   dependencies:
     "@hapi/hoek" "8.x.x"
 
-"@ionic/core@^4.0.2", "@ionic/core@^4.3.0":
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.3.0.tgz#597cdfa41570028fbaaa7e953c7167a7bfb872e1"
+"@ionic/core@^4.0.2", "@ionic/core@^4.3.1":
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-4.3.1.tgz#804bad9c0b9fd706ff1239028312933d31d85fca"
+  integrity sha512-8Klf1IWKQOJ+12n0iq0RTVJpxV+DwW/spJmErSuR6t7FH6ai+37o2cDIGq5ilc3IrBXV49a6l2RBGCwBdzkPgQ==
   dependencies:
     ionicons "4.5.6"
 

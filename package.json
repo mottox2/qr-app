@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ionic/core": "^4.3.0",
+    "@ionic/core": "^4.3.1",
     "@ionic/react": "^0.0.5",
     "@types/jest": "24.0.18",
     "@types/node": "12.7.2",
